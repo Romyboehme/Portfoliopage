@@ -97,7 +97,7 @@ h7 {
 
 .myheader {
   background-color: #2C2B29;
-  height: 700px;
+  height: 800px;
   font-family: Lora;
 }
 
@@ -159,16 +159,25 @@ h7 {
 }
 
 .myicons {
-  heigt: 40px;
+  padding-top: 300px;
+  float: right;
+}
+
+.myicons div {
+  display: inline-block;
+}
+
+.myicons img {
   width: 40px;
-
-
+  margin-left: 10px;
 }
 
 
-.socialicons {
-  /* padding-left: 1150px */
-}
+/* .container {
+  justify-content: flex-end;
+} */
+
+
 
 .col-12 {
   margin-bottom: 15px;
