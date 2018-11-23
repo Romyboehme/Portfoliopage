@@ -138,14 +138,14 @@ h7 {
 .mypic {
   height: 280px;
   width: 200px;
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 .aboutme {
   background-color: #2C2B29;
   padding-bottom: 200px;
   font-family: Lora;
-  height: 650px;
+  height: 700px;
 }
 
 /* Section 4-contact */
@@ -159,7 +159,7 @@ h7 {
 }
 
 .myicons {
-  padding-top: 300px;
+  padding-top: 150px;
   float: right;
 }
 
@@ -169,7 +169,7 @@ h7 {
 
 .myicons img {
   width: 40px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 
