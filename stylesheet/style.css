@@ -36,22 +36,6 @@ h5 {
 }
 
 
-/* h6 {
-  color: #B1AAAA;
-  text-align: justify;
-  padding-top: 80px;
-  font-family: Lora;
-  font-size: 18px;
-
-}
-
-h7 {
-  color: #B1AAAA;
-  text-align: justify;
-  font-family: Lora;
-  font-size: 16px; */
-
-}
 
 
 /* Section 1 */
@@ -159,8 +143,8 @@ h7 {
 }
 
 .myicons {
-  padding-top: 150px;
-  float: right;
+  padding-top: 10px;
+
 }
 
 .myicons div {
@@ -171,12 +155,6 @@ h7 {
   width: 40px;
   margin-left: 15px;
 }
-
-
-/* .container {
-  justify-content: flex-end;
-} */
-
 
 
 .col-12 {
