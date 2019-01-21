@@ -1,149 +1,155 @@
 /* Variables */
 
 h1 {
-  color: #B1AAAA;
+  color: #2e4049;
+  padding-top: 110px;
+  font-family: 'News Cycle', sans-serif;
+  font-weight: lighter;
+  font-size: 70px;
   text-align: center;
-  padding-top: 300px;
-  font-family: Lora;
-  font-size: 60px;
-
 }
 
-
 h2 {
-  color: #B1AAAA;
-  text-align: justify;
-  padding-top: 80px;
-  font-family: Lora;
-  font-size: 18px;
+  color: #E0DEDE;
+  /* padding-top: 10px; */
+  font-family: 'News Cycle', sans-serif;
+  font-weight: lighter;
+  font-size: 70px;
+  text-align: center;
 }
 
 h3 {
-  color: #B1AAAA;
-  text-align: justify;
-  font-family: Lora;
+  color: #E0DEDE;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
   font-size: 16px;
-
+  line-height: 26px;
 }
 
+h4 {
+  color: #2C2B29;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 16px;
+}
 
 h5 {
   color: #B1AAAA;
   text-align: justify;
   padding-top: 10px;
-  font-family: Lora;
-  font-size: 18px;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 16px;
 }
 
-
+h6 {
+  color: #2C2B29;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 26px;
+}
 
 
 /* Section 1 */
-
-#logo {
-  width: 70px;
-  height: 50px;
-  margin-left: 30px;
-
+.nav-item {
+  background-color: #507182;
+  padding-top: 10px;
 }
-
-.nav-item{
-  background-color: white;
-  padding-top: 40px;
-}
-
 
 #navbarText ul {
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 40px;
+  padding-right: 40px;
   width: 100%;
-  display: flex;
+  display: inline-flex;
   justify-content: space-around;
-
 }
 
 .mynavbar {
-  font-family: Lora;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
   font-size: 16px;
-  padding-top: 20px;
-  background-color: white;
+  /* padding-top: 20px; */
+  background-color: #507182;
 }
 
 .mynav {
-  color: #B1AAAA!important;
+  color: #2e4049; !important;
 }
-
-/* .mynavbar li {
-  display: inline-block;
-  font-family: Lora;
-  color: #B1AAAA; */
 
 
 .myheader {
-  background-color: #2C2B29;
-  height: 800px;
-  font-family: Lora;
+  background-color: #507182;
+  height: 1000px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+
 }
 
-.btn-outline-secondary {
-  border-color: #B1AAAA;
-  color: #B1AAAA;
+.mynewpic {
+  /* height: 300px;
+  width: 620px; */
+  padding-top: 20px;
+  /* padding-right: 0px; */
+  display: inline-flex;
+
 }
 
-.mybutton:hover {
-  background-color: #C9C7C3;
-}
-
-.col-12 {
-  padding-top: 100px;
-}
 
 .item-link {
   margin: 0 20px;
 }
 
-
 /* Section 2 */
 
-.card-row {
-  margin: 30px 0;
-}
-
-.card-title {
-  font-family: Lora;
-  font-size: 12;
-  color: #B1AAAA;
+.myprojects {
+  background-color: #507182;
+  height: 1600px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  padding-top: 80px;
 
 }
 
+.myportfoliopic {
+  height: 180px;
+  width: 180px;
+  /* padding-top: 30px; */
 
-/*Section 3 */
-
-.mypic {
-  height: 280px;
-  width: 200px;
-  padding-top: 60px;
 }
+
+
+/* Section 3 */
 
 .aboutme {
-  background-color: #2C2B29;
-  padding-bottom: 200px;
-  font-family: Lora;
-  height: 700px;
+  background-color: #507182;
+  /* padding-bottom: 200px; */
+  font-family: 'Raleway', sans-serif;
+  height: 720px;
+  text-align: center;
 }
 
-/* Section 4-contact */
-
 .mycontact {
-  background-color: #2C2B29;
-  padding-bottom: 200px;
-  font-family: Lora;
-  margin-top: 30px;
-  height: 400px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.btn-outline-secondary {
+  border-color: #2e4049;
+  color: #2e4049;
+
+}
+
+.mybutton:hover {
+  background-color: #E0DEDE;
+  justify-content: space-between;
 }
 
 .myicons {
-  padding-top: 10px;
+  padding-top: 30px;
 
 }
 
@@ -152,11 +158,11 @@ h5 {
 }
 
 .myicons img {
-  width: 40px;
-  margin-left: 15px;
+  width: 35px;
 }
 
 
 .col-12 {
   margin-bottom: 15px;
+  padding-top: 20px
 }
